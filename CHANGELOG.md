@@ -1,6 +1,39 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/laravel/compare/v6.2.0...master)
+## [Unreleased](https://github.com/laravel/laravel/compare/v6.8.0...master)
+
+
+## [v6.8.0 (2019-12-16)](https://github.com/laravel/laravel/compare/v6.5.2...v6.8.0)
+
+### Added
+- Add "none" to supported same site options in session config ([#5174](https://github.com/laravel/laravel/pull/5174))
+
+### Changed
+- Rename `encrypted` to `forceTLS` for Pusher ([#5159](https://github.com/laravel/laravel/pull/5159))
+- Use laravel/tinker v2 ([#5161](https://github.com/laravel/laravel/pull/5161))
+- Use PHPUnit TestCase and in-memory DB ([#5169](https://github.com/laravel/laravel/pull/5169))
+- DRY up path to /home ([#5173](https://github.com/laravel/laravel/pull/5173))
+- Change some default settings ([f48e2d5](https://github.com/laravel/laravel/commit/f48e2d500cb53cc4a09dfcb40beb0abafd79de4f))
+
+### Fixed
+- Consistent alphabetical order ([#5167](https://github.com/laravel/laravel/pull/5167))
+- Update redirectTo return type PHPDoc ([#5175](https://github.com/laravel/laravel/pull/5175))
+
+
+## [v6.5.2 (2019-11-21)](https://github.com/laravel/laravel/compare/v6.4.0...v6.5.2)
+
+### Changed
+- Update .styleci.yml ([bfd4b1e](https://github.com/laravel/laravel/commit/bfd4b1e92f7c6b4e6b74cfdde995a5afad648d96))
+
+
+## [v6.4.0 (2019-10-21)](https://github.com/laravel/laravel/compare/v6.2.0...v6.4.0)
+
+### Changed
+- Add xml schema to phpunit ([#5139](https://github.com/laravel/laravel/pull/5139))
+
+### Fixed
+- Fixes required version of the framework within `composer.json` ([#5130](https://github.com/laravel/laravel/pull/5130))
+- Security fix: Waiting before retrying password reset ([ace38c1](https://github.com/laravel/laravel/commit/ace38c133f3d8088fc7477f56b9db6fdc0098d06), [ba2f2ab](https://github.com/laravel/laravel/commit/ba2f2abe830f5d03c52fd9c88411859cf863abd6), [953b488](https://github.com/laravel/laravel/commit/953b488b8bb681d4d6e12227645c7c1b7ac26935))
 
 
 ## [v6.2.0 (2019-10-08)](https://github.com/laravel/laravel/compare/v6.0.2...v6.2.0)
